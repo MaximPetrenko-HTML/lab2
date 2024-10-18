@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(205, 199, 255);
+  }
+  .boxcenter {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  background-color: rgb(255, 0, 157);
+  }
+
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: auto;  
+    padding: 14px 16px;
+    font-size: 17px;
+    
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  .tabcontent {
+    color: rgb(0, 0, 0);
+    display: none;
+    padding: 30px 20px;
+    height: 100%;
+  }
+  
+  .container {
+    position: relative;
+    width: auto;
+    height: 1000px;
+    padding: 20px;
+}
+
+img.photo {
+    margin: 0;
+    left: 0;
+    top: 0;
+    height: 450px;
+    width: 400px;
+}
+
+.content {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.content1 {
+    top: 10px;
+    right: 650px;
+}
+
+.content2 {
+    top: 300px;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.content3 {
+    bottom: 200px;
+    left: 250px;
+}
+
+.content4 {
+    bottom: 200px;
+    right: 300px;
+}
+
+#experience, #skills {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+}
